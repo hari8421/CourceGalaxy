@@ -1,0 +1,1129 @@
+{
+  "generated_at": "2026-09-27T10:06:09.128587+00:00",
+  "tracks": [
+    {
+      "id": "ai",
+      "title": "AI Developer",
+      "tagline": "From working software developer to AI developer in 3–4 weeks",
+      "accent": "teal",
+      "icon": "brain",
+      "duration": "3–4 weeks",
+      "directory": "ai-developer-path",
+      "module_count": 6,
+      "total_hours": 86,
+      "modules": [
+        {
+          "track": "ai",
+          "slug": "README",
+          "title": "AI Developer — Start Here",
+          "week": 0,
+          "order": 0,
+          "type": "overview",
+          "hours": 2,
+          "summary": "The 3-4 week plan that turns a working software developer into an AI developer shipping real products.",
+          "tags": [
+            "overview",
+            "career",
+            "roadmap"
+          ],
+          "word_count": 1172,
+          "headings": [
+            "The one mental model that makes the rest obvious",
+            "What actually separates a \"prompt guy\" from an AI developer",
+            "The 4-week map",
+            "Prerequisites checklist (you probably already pass)",
+            "Environment setup (do this in the first hour of Week 1)",
+            "Daily working rhythm (this is what makes 3–4 weeks possible)",
+            "How to use this platform",
+            "The metric you are optimising for"
+          ]
+        },
+        {
+          "track": "ai",
+          "slug": "week-1-llm-fundamentals",
+          "title": "Week 1 — LLM Fundamentals",
+          "week": 1,
+          "order": 1,
+          "type": "module",
+          "hours": 16,
+          "summary": "Tokens, embeddings, sampling, structured output, streaming, and your first real LLM application with cost accounting.",
+          "tags": [
+            "api",
+            "prompting",
+            "structured-output",
+            "streaming",
+            "tokens",
+            "cost"
+          ],
+          "word_count": 1764,
+          "headings": [
+            "1. Concepts (45 min)",
+            "2. Lab — `llm-lab` (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `llm-lab` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "ai",
+          "slug": "week-2-retrieval-rag",
+          "title": "Week 2 — Retrieval & RAG",
+          "week": 2,
+          "order": 2,
+          "type": "module",
+          "hours": 18,
+          "summary": "Chunking, embeddings, vector search, hybrid retrieval, rerankers, and a citation-backed RAG app with a recall@k eval harness.",
+          "tags": [
+            "rag",
+            "embeddings",
+            "vector-search",
+            "chunking",
+            "retrieval",
+            "citations"
+          ],
+          "word_count": 1900,
+          "headings": [
+            "1. Concepts (1 h)",
+            "2. Lab — `rag-docs` (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `rag-docs` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "ai",
+          "slug": "week-3-agents-and-tools",
+          "title": "Week 3 — Agents & Tools",
+          "week": 3,
+          "order": 3,
+          "type": "module",
+          "hours": 18,
+          "summary": "Function calling, tool design that models actually use well, bounded agent loops, memory, MCP, and knowing when not to build an agent.",
+          "tags": [
+            "agents",
+            "function-calling",
+            "tools",
+            "mcp",
+            "memory",
+            "orchestration"
+          ],
+          "word_count": 1994,
+          "headings": [
+            "1. Concepts (1 h)",
+            "2. Lab — `agent-desk` (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `agent-desk` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "ai",
+          "slug": "week-4-production-and-evals",
+          "title": "Week 4 — Production, Evals & Safety",
+          "week": 4,
+          "order": 4,
+          "type": "module",
+          "hours": 20,
+          "summary": "Offline and online evals, tracing and observability, caching, cost and latency tuning, prompt-injection defence, guardrails, and shipping it.",
+          "tags": [
+            "evals",
+            "observability",
+            "cost",
+            "latency",
+            "security",
+            "prompt-injection",
+            "deployment"
+          ],
+          "word_count": 2175,
+          "headings": [
+            "1. Concepts (1.5 h)",
+            "2. Lab — take `agent-desk` to production (the week's main build)",
+            "3. Practical drills (3 h)",
+            "4. Deliverable — production `agent-desk` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "ai",
+          "slug": "projects",
+          "title": "Projects & Capstone",
+          "week": 4,
+          "order": 5,
+          "type": "project",
+          "hours": 12,
+          "summary": "Two portfolio projects and one capstone that combine RAG, tools, evals, and production engineering into interview-ready proof.",
+          "tags": [
+            "projects",
+            "portfolio",
+            "capstone",
+            "interview"
+          ],
+          "word_count": 1004,
+          "headings": [
+            "Project A — `llm-lab` (Week 1) — *the tool*",
+            "Project B — `rag-docs` (Week 2) — *the product*",
+            "Project C — `agent-desk` (Week 3–4) — *the flagship*",
+            "Capstone — *\"Ship it in 5 days\"*",
+            "Portfolio polish (1 h, do not skip)",
+            "The interview script you are building toward",
+            "Optional: LLM-adjacent specialisations (week 5+)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spring",
+      "title": "Java Spring Boot Developer",
+      "tagline": "Zero to production-grade Spring Boot, one week at a time",
+      "accent": "lime",
+      "icon": "leaf",
+      "duration": "5 weeks",
+      "directory": "spring-boot-developer-path",
+      "module_count": 7,
+      "total_hours": 101,
+      "modules": [
+        {
+          "track": "spring",
+          "slug": "README",
+          "title": "Spring Boot Developer — Start Here",
+          "week": 0,
+          "order": 0,
+          "type": "overview",
+          "hours": 2,
+          "summary": "A zero-to-production Java Spring Boot roadmap: language, framework, web and data, testing and security, then production engineering.",
+          "tags": [
+            "java",
+            "spring-boot",
+            "maven",
+            "roadmap",
+            "career"
+          ],
+          "word_count": 1033,
+          "headings": [
+            "The version matrix (get this right on day one)",
+            "The 5-week map",
+            "Project ladder",
+            "Environment setup (first hour)",
+            "Learning rhythm",
+            "The habits that make you employable",
+            "How to use this platform"
+          ]
+        },
+        {
+          "track": "spring",
+          "slug": "week-1-java-core",
+          "title": "Week 1 — Modern Java Fundamentals",
+          "week": 1,
+          "order": 1,
+          "type": "module",
+          "hours": 16,
+          "summary": "The Java you need before Spring: OOP, generics, collections, streams, exceptions, records, Optional, Maven, and JUnit.",
+          "tags": [
+            "java",
+            "oop",
+            "collections",
+            "streams",
+            "exceptions",
+            "junit",
+            "maven"
+          ],
+          "word_count": 1790,
+          "headings": [
+            "1. Concepts (2 h)",
+            "2. Lab — `task-tracker-cli` (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `task-tracker-cli`",
+            "5. Cheat sheet"
+          ]
+        },
+        {
+          "track": "spring",
+          "slug": "week-2-spring-boot-fundamentals",
+          "title": "Week 2 — Spring Boot Fundamentals",
+          "week": 2,
+          "order": 2,
+          "type": "module",
+          "hours": 15,
+          "summary": "Auto-configuration, IoC and dependency injection, bean stereotypes, configuration properties, profiles, and a layered project structure.",
+          "tags": [
+            "spring-boot",
+            "ioc",
+            "di",
+            "beans",
+            "configuration",
+            "profiles"
+          ],
+          "word_count": 1565,
+          "headings": [
+            "1. Concepts (2 h)",
+            "2. Lab — `library-service` (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `library-service`",
+            "5. Cheat sheet"
+          ]
+        },
+        {
+          "track": "spring",
+          "slug": "week-3-web-and-data",
+          "title": "Week 3 — REST APIs & Persistence",
+          "week": 3,
+          "order": 3,
+          "type": "module",
+          "hours": 18,
+          "summary": "Spring MVC controllers, Bean Validation, RFC 7807 problem details, Spring Data JPA, Hibernate, transactions, Flyway migrations, and the N+1 problem.",
+          "tags": [
+            "rest",
+            "mvc",
+            "validation",
+            "jpa",
+            "hibernate",
+            "transactions",
+            "flyway",
+            "n-plus-one"
+          ],
+          "word_count": 1995,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — the full CRUD + search API (the week's main build)",
+            "3. Practical drills (3 h)",
+            "4. Deliverable — `library-service` v2",
+            "5. Cheat sheet"
+          ]
+        },
+        {
+          "track": "spring",
+          "slug": "week-4-testing-security-and-ops",
+          "title": "Week 4 — Testing, Security & Operations",
+          "week": 4,
+          "order": 4,
+          "type": "module",
+          "hours": 18,
+          "summary": "The test pyramid with Testcontainers, Spring Security with JWT and roles, actuator and metrics, caching, async, scheduling, and structured logging.",
+          "tags": [
+            "testing",
+            "security",
+            "jwt",
+            "oauth2",
+            "actuator",
+            "caching",
+            "async",
+            "logging"
+          ],
+          "word_count": 1853,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — secure and instrument `library-service` (the week's main build)",
+            "3. Practical drills (3 h)",
+            "4. Deliverable — `library-service` v3",
+            "5. Self-check (security-focused)",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "spring",
+          "slug": "week-5-production-engineering",
+          "title": "Week 5 — Production Engineering",
+          "week": 5,
+          "order": 5,
+          "type": "module",
+          "hours": 18,
+          "summary": "Docker and multi-stage builds, CI pipelines, JVM and connection-pool tuning, profiling, resilience patterns, messaging with Kafka, and microservice boundaries.",
+          "tags": [
+            "docker",
+            "ci",
+            "performance",
+            "jvm",
+            "resilience",
+            "kafka",
+            "microservices",
+            "kubernetes"
+          ],
+          "word_count": 1872,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — productionise `library-service` (the week's main build)",
+            "3. Practical drills (3 h)",
+            "4. Deliverable — `library-service` v4 (production-grade)",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "spring",
+          "slug": "projects",
+          "title": "Projects & Capstone",
+          "week": 5,
+          "order": 6,
+          "type": "project",
+          "hours": 14,
+          "summary": "Four portfolio projects and one production-grade capstone that demonstrate Java, Spring Boot, data, security, and operations.",
+          "tags": [
+            "projects",
+            "capstone",
+            "portfolio",
+            "interview"
+          ],
+          "word_count": 1064,
+          "headings": [
+            "Project 1 — `task-tracker-cli` (Week 1)",
+            "Project 2 — `library-service` (Week 2–3)",
+            "Project 3 — `secure-notes-api` (Week 4)",
+            "Project 4 — `bookstore-microservices` (Week 5)",
+            "Capstone — `taskflow-api` (end of path)",
+            "Portfolio polish (1 h, do not skip)",
+            "The interview script you are building toward",
+            "After the path: where to go next"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "title": "Claude Certification",
+      "tagline": "Pass Anthropic's Claude exams with project-first preparation",
+      "accent": "amber",
+      "icon": "award",
+      "duration": "6 weeks",
+      "directory": "claude-certification-path",
+      "module_count": 8,
+      "total_hours": 112,
+      "modules": [
+        {
+          "track": "claude",
+          "slug": "README",
+          "title": "Claude Certification — Start Here",
+          "week": 0,
+          "order": 0,
+          "type": "overview",
+          "hours": 2,
+          "summary": "A 4-week preparation path for Anthropic's Claude certification exams, built around the Developer track with the Architect track as the stretch goal.",
+          "tags": [
+            "claude",
+            "anthropic",
+            "certification",
+            "mcp",
+            "exam",
+            "roadmap"
+          ],
+          "word_count": 1733,
+          "headings": [
+            "The four exams",
+            "Which one should you take?",
+            "Exam content, by domain",
+            "The 4-week plan",
+            "Environment setup (first hour)",
+            "Free official courses",
+            "Working rhythm",
+            "How to use this platform"
+          ]
+        },
+        {
+          "track": "claude",
+          "slug": "week-1-platform-foundations",
+          "title": "Week 1 — The Claude Platform",
+          "week": 1,
+          "order": 1,
+          "type": "module",
+          "hours": 16,
+          "summary": "Messages API anatomy, content blocks, stop_reason, streaming, model families, tokenising, retries, rate limits, and cost accounting.",
+          "tags": [
+            "messages-api",
+            "stop-reason",
+            "streaming",
+            "tokens",
+            "cost",
+            "retries",
+            "sdk"
+          ],
+          "word_count": 2315,
+          "headings": [
+            "1. Concepts (2 h)",
+            "2. Lab — `claude-lab` (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `claude-lab`",
+            "5. Cheat sheet"
+          ]
+        },
+        {
+          "track": "claude",
+          "slug": "week-2-prompt-engineering-structured-output",
+          "title": "Week 2 — Prompt Engineering & Structured Output",
+          "week": 2,
+          "order": 2,
+          "type": "module",
+          "hours": 18,
+          "summary": "Instructions vs system prompts, XML structure, few-shot design, prefill, forced tool choice, extended thinking, and extraction with segmented accuracy reporting.",
+          "tags": [
+            "prompt-engineering",
+            "structured-output",
+            "few-shot",
+            "prefill",
+            "extended-thinking",
+            "tool-choice",
+            "evals"
+          ],
+          "word_count": 1922,
+          "headings": [
+            "1. Concepts (2.5 h)",
+            "2. Lab — extraction + optimisation loop (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `extract/`",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "claude",
+          "slug": "week-3-tools-and-mcp",
+          "title": "Week 3 — Tools & MCP",
+          "week": 3,
+          "order": 3,
+          "type": "module",
+          "hours": 18,
+          "summary": "The full tool_use → tool_result cycle, tool schema design, structured error envelopes, and building a real MCP server in Python.",
+          "tags": [
+            "tool-use",
+            "mcp",
+            "tool-schema",
+            "structured-errors",
+            "mcp-server",
+            "fastmcp"
+          ],
+          "word_count": 2282,
+          "headings": [
+            "1. Concepts (2.5 h)",
+            "2. Lab — MCP server + raw tool loop (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — MCP order server",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "claude",
+          "slug": "week-4-agents-context-and-security",
+          "title": "Week 4 — Agents, Context & Security",
+          "week": 4,
+          "order": 4,
+          "type": "module",
+          "hours": 18,
+          "summary": "The augmented-LLM loop, workflows vs agents, context management and caching, the Batch API, subagents and skills, and prompt-injection defence.",
+          "tags": [
+            "agents",
+            "workflows",
+            "context-window",
+            "prompt-caching",
+            "batch-api",
+            "subagents",
+            "security"
+          ],
+          "word_count": 2340,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — bounded agent + injection suite (the week's main build)",
+            "3. Practical drills (3 h)",
+            "4. Deliverable — production agent",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "claude",
+          "slug": "week-5-architect-track",
+          "title": "Week 5 — The Architect Track",
+          "week": 5,
+          "order": 5,
+          "type": "module",
+          "hours": 16,
+          "summary": "Orchestration at scale, context isolation strategies, Claude Code configuration with hooks and skills, enterprise integration, governance, and lifecycle management.",
+          "tags": [
+            "orchestration",
+            "claude-code",
+            "hooks",
+            "enterprise",
+            "governance",
+            "lifecycle",
+            "bedrock",
+            "vertex"
+          ],
+          "word_count": 1860,
+          "headings": [
+            "1. Concepts (3 h)",
+            "Commands",
+            "2. Lab — the architect deliverables (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — architect portfolio",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "claude",
+          "slug": "week-6-mocks-and-exam-day",
+          "title": "Week 6 — Mocks & Exam Day",
+          "week": 6,
+          "order": 6,
+          "type": "module",
+          "hours": 12,
+          "summary": "Build your own 60-question mock, maintain an error log, drill the question-analysis techniques, and run a timed final rehearsal.",
+          "tags": [
+            "mock-exam",
+            "exam-day",
+            "error-log",
+            "question-analysis",
+            "time-management"
+          ],
+          "word_count": 1568,
+          "headings": [
+            "1. Concepts (1.5 h)",
+            "Q: 42 — \"Team must always get the shared lint rules. Where do they go?\"",
+            "2. Lab — the final rehearsal (the week's main build)",
+            "3. Practical drills (1 h)",
+            "4. Deliverable — the mock dossier",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "claude",
+          "slug": "projects",
+          "title": "Projects & Capstone",
+          "week": 6,
+          "order": 7,
+          "type": "project",
+          "hours": 12,
+          "summary": "Five builds that produce the muscle memory the Claude exams assume, from a tool sandbox to a production agent with a governance story.",
+          "tags": [
+            "projects",
+            "capstone",
+            "portfolio",
+            "mcp",
+            "evals"
+          ],
+          "word_count": 1055,
+          "headings": [
+            "Project 1 — `claude-lab` (Week 1) — *the tool*",
+            "Project 2 — `extract` (Week 2) — *the evaluation harness*",
+            "Project 3 — `orders-mcp` (Week 3) — *the server*",
+            "Project 4 — `agent-ops` (Week 4) — *the production agent*",
+            "Project 5 — `claude-code-project` (Week 5) — *the architect artefact*",
+            "Capstone — *one system, exam-ready, portfolio-grade*",
+            "The six scenario answers (write these yourself)",
+            "Portfolio polish (1 h)",
+            "After the certification"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system",
+      "title": "System Design",
+      "tagline": "From 'it works' to 'it survives 100x, a region failure, and a cost review'",
+      "accent": "rose",
+      "icon": "layers",
+      "duration": "6 weeks",
+      "directory": "system-design-path",
+      "module_count": 7,
+      "total_hours": 94,
+      "modules": [
+        {
+          "track": "system",
+          "slug": "README",
+          "title": "System Design — Start Here",
+          "week": 0,
+          "order": 0,
+          "type": "overview",
+          "hours": 2,
+          "summary": "A 6-week path from 'I can build a service' to 'I can design a system that survives 100x, a region failure, and a cost review'.",
+          "tags": [
+            "system-design",
+            "architecture",
+            "scalability",
+            "interview",
+            "distributed-systems"
+          ],
+          "word_count": 1257,
+          "headings": [
+            "The one framework",
+            "The vocabulary that makes the rest obvious",
+            "The 6-week map",
+            "Prerequisites",
+            "The five numbers worth memorising",
+            "Working rhythm",
+            "The metric you are optimising for"
+          ]
+        },
+        {
+          "track": "system",
+          "slug": "week-1-requirements-and-estimation",
+          "title": "Week 1 — Requirements, Estimation & the Design Loop",
+          "week": 1,
+          "order": 1,
+          "type": "module",
+          "hours": 14,
+          "summary": "Clarifying scope, doing back-of-envelope math out loud, writing NFRs, and running a 45-minute design interview end to end.",
+          "tags": [
+            "requirements",
+            "estimation",
+            "capacity-planning",
+            "nfr",
+            "design-doc",
+            "interview"
+          ],
+          "word_count": 2151,
+          "headings": [
+            "1. Concepts (2 h)",
+            "1. Requirements",
+            "2. Estimation",
+            "3. API",
+            "4. Architecture",
+            "5. Deep dive",
+            "6. Failure & operations",
+            "7. Open questions",
+            "2. Lab — design a URL shortener (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — URL shortener design doc + one implementation",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "system",
+          "slug": "week-2-data-consistency-and-transactions",
+          "title": "Week 2 — Data: Storage, Consistency & Transactions",
+          "week": 2,
+          "order": 2,
+          "type": "module",
+          "hours": 16,
+          "summary": "Relational modelling and indexing, storage engines, sharding, replication, consistency models, isolation levels, idempotency, outbox and saga.",
+          "tags": [
+            "database",
+            "indexing",
+            "sharding",
+            "replication",
+            "cap",
+            "consistency",
+            "transactions",
+            "outbox",
+            "saga"
+          ],
+          "word_count": 2684,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — sharding and replication plan (the week's main build)",
+            "Sharding",
+            "The hot-shard problem",
+            "Re-sharding",
+            "The dominant query",
+            "Failure behaviour",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — data layer plan",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "system",
+          "slug": "week-3-scaling-compute-caching-and-messaging",
+          "title": "Week 3 — Scaling Out: Compute, Caching & Messaging",
+          "week": 3,
+          "order": 3,
+          "type": "module",
+          "hours": 16,
+          "summary": "Load balancing, stateless services, autoscaling, DNS and CDN, cache layers and invalidation, queues and backpressure, rate limiting, load shedding, event-driven architecture.",
+          "tags": [
+            "load-balancer",
+            "autoscaling",
+            "cdn",
+            "caching",
+            "queues",
+            "backpressure",
+            "rate-limiting",
+            "load-shedding",
+            "event-driven"
+          ],
+          "word_count": 2397,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — build the resilience layer (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the resilience layer",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "system",
+          "slug": "week-4-reliability-observability-and-cost",
+          "title": "Week 4 — Reliability, Observability & Cost",
+          "week": 4,
+          "order": 4,
+          "type": "module",
+          "hours": 16,
+          "summary": "SLIs and SLOs, error budgets, failure containment, timeouts and retries, distributed tracing, capacity planning, cost engineering, multi-region DR, and security boundaries.",
+          "tags": [
+            "slo",
+            "error-budget",
+            "observability",
+            "tracing",
+            "capacity-planning",
+            "cost",
+            "disaster-recovery",
+            "multi-region",
+            "security"
+          ],
+          "word_count": 2386,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — make it operable (the week's main build)",
+            "SLIs",
+            "SLOs",
+            "Error budget policy",
+            "Alerts that page",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — operational readiness",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "system",
+          "slug": "week-5-interview-playbook",
+          "title": "Week 5 — The Interview Playbook",
+          "week": 5,
+          "order": 5,
+          "type": "module",
+          "hours": 14,
+          "summary": "The pattern catalogue, twelve canonical problems, how to handle the scale questions, what interviewers actually score, and timed drills.",
+          "tags": [
+            "interview",
+            "patterns",
+            "canonical-problems",
+            "whiteboarding",
+            "practice"
+          ],
+          "word_count": 2246,
+          "headings": [
+            "1. Concepts (2 h)",
+            "2. Lab — three timed designs (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the interview dossier",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "system",
+          "slug": "projects",
+          "title": "Projects & Capstone",
+          "week": 5,
+          "order": 6,
+          "type": "project",
+          "hours": 16,
+          "summary": "Ten canonical builds plus one capstone that forces every pattern in the catalogue to earn its place.",
+          "tags": [
+            "projects",
+            "capstone",
+            "portfolio",
+            "interview"
+          ],
+          "word_count": 1517,
+          "headings": [
+            "Project 1 — URL shortener (Week 1)",
+            "Project 2 — Rate limiter (Week 3)",
+            "Project 3 — News feed (Week 5)",
+            "Project 4 — Chat service (Week 3)",
+            "Project 5 — File storage (Week 5)",
+            "Project 6 — Ticket booking (Week 2) ← *the consistency one*",
+            "Project 7 — Analytics pipeline (Week 5)",
+            "Project 8 — Notification system (Week 4)",
+            "Project 9 — Video transcoding pipeline (Week 5)",
+            "Project 10 — Payment system (Week 2) ← *the hardest one*",
+            "Capstone — a system of your own",
+            "Portfolio polish (1 h)",
+            "The 30-minute project deep-dive (STAR)",
+            "After the path: where to go next"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "title": "Java Developer",
+      "tagline": "Modern Java end to end — language core, concurrency, toolchain, and the JVM",
+      "accent": "sky",
+      "icon": "coffee",
+      "duration": "7 weeks",
+      "directory": "java-developer-path",
+      "module_count": 9,
+      "total_hours": 132,
+      "modules": [
+        {
+          "track": "java",
+          "slug": "README",
+          "title": "Java Developer — Start Here",
+          "week": 0,
+          "order": 0,
+          "type": "overview",
+          "hours": 2,
+          "summary": "A 7-week path through modern Java — language core through the JVM, concurrency, tooling, and the design idioms employers actually expect.",
+          "tags": [
+            "java",
+            "jdk",
+            "records",
+            "virtual-threads",
+            "maven",
+            "testing",
+            "jvm"
+          ],
+          "word_count": 1632,
+          "headings": [
+            "The version landscape (September 2026)",
+            "Where the modern features came from",
+            "The 7-week map",
+            "Environment setup (first hour)",
+            "Working rhythm",
+            "The habits that make you employable",
+            "How to use this platform"
+          ]
+        },
+        {
+          "track": "java",
+          "slug": "week-1-language-core",
+          "title": "Week 1 — Language Core",
+          "week": 1,
+          "order": 1,
+          "type": "module",
+          "hours": 16,
+          "summary": "Types, immutability, records, sealed hierarchies, generics, enums, switch expressions, pattern matching, var, text blocks, and exceptions.",
+          "tags": [
+            "records",
+            "sealed",
+            "generics",
+            "pattern-matching",
+            "switch",
+            "exceptions",
+            "var",
+            "text-blocks"
+          ],
+          "word_count": 2186,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — a `Money`/`Payment` domain model (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the domain model",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "java",
+          "slug": "week-2-collections-streams-and-functional-java",
+          "title": "Week 2 — Collections, Streams & Functional Java",
+          "week": 2,
+          "order": 2,
+          "type": "module",
+          "hours": 16,
+          "summary": "Choosing the right collection, lazy stream pipelines, Collectors, Optional done properly, and functional error handling without exception abuse.",
+          "tags": [
+            "collections",
+            "streams",
+            "collectors",
+            "optional",
+            "method-reference",
+            "functional",
+            "result"
+          ],
+          "word_count": 2003,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — analytics pipeline (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — analytics pipeline",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "java",
+          "slug": "week-3-concurrency-and-virtual-threads",
+          "title": "Week 3 — Concurrency & Modern Concurrency",
+          "week": 3,
+          "order": 3,
+          "type": "module",
+          "hours": 18,
+          "summary": "The memory model, locks, atomics, CompletableFuture, executors, virtual threads, structured concurrency, and scoped values — with measured numbers.",
+          "tags": [
+            "concurrency",
+            "virtual-threads",
+            "structured-concurrency",
+            "scoped-values",
+            "completablefuture",
+            "locks",
+            "atomics"
+          ],
+          "word_count": 2261,
+          "headings": [
+            "1. Concepts (3.5 h)",
+            "2. Lab — virtual-thread service (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the virtual-thread service",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "java",
+          "slug": "week-4-standard-library-and-modern-apis",
+          "title": "Week 4 — The Modern Standard Library",
+          "week": 4,
+          "order": 4,
+          "type": "module",
+          "hours": 16,
+          "summary": "java.time, NIO and modern I/O, the HTTP client, text processing, RandomGenerator, and the FFM API for off-heap memory.",
+          "tags": [
+            "java-time",
+            "nio",
+            "http-client",
+            "regex",
+            "records",
+            "ffm",
+            "streams-io"
+          ],
+          "word_count": 2004,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — a file-processing pipeline (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the file pipeline",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "java",
+          "slug": "week-5-build-test-and-toolchain",
+          "title": "Week 5 — Build, Test & Toolchain",
+          "week": 5,
+          "order": 5,
+          "type": "module",
+          "hours": 16,
+          "summary": "Maven and Gradle, dependency management, JUnit 5, AssertJ, Mockito, Testcontainers, debugging, static analysis, and a real test pyramid.",
+          "tags": [
+            "maven",
+            "gradle",
+            "junit5",
+            "assertj",
+            "mockito",
+            "testcontainers",
+            "debugging",
+            "spotbugs",
+            "tooling"
+          ],
+          "word_count": 1975,
+          "headings": [
+            "1. Concepts (3 h)",
+            "2. Lab — a multi-module project (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the multi-module project",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "java",
+          "slug": "week-6-jvm-and-performance",
+          "title": "Week 6 — The JVM & Performance",
+          "week": 6,
+          "order": 6,
+          "type": "module",
+          "hours": 16,
+          "summary": "Object layout, the JIT, garbage collectors including G1 as the default in Java 27, JFR profiling, and jcmd/jstack/jmap diagnostics.",
+          "tags": [
+            "jvm",
+            "garbage-collection",
+            "g1",
+            "zgc",
+            "jit",
+            "jfr",
+            "profiling",
+            "tuning",
+            "performance"
+          ],
+          "word_count": 2273,
+          "headings": [
+            "1. Concepts (3.5 h)",
+            "2. Lab — profile and fix a slow service (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the profiled service",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "java",
+          "slug": "week-7-idioms-design-and-api-craft",
+          "title": "Week 7 — Idioms, Design & API Craft",
+          "week": 7,
+          "order": 7,
+          "type": "module",
+          "hours": 16,
+          "summary": "Null safety, immutability, error modelling, the design patterns worth using, domain modelling, API design, backwards compatibility, and code review.",
+          "tags": [
+            "null-safety",
+            "immutability",
+            "design-patterns",
+            "ddd",
+            "api-design",
+            "compatibility",
+            "code-review",
+            "clean-code"
+          ],
+          "word_count": 2877,
+          "headings": [
+            "1. Concepts (3.5 h)",
+            "2. Lab — refactor a procedural codebase (the week's main build)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the refactored codebase",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "java",
+          "slug": "projects",
+          "title": "Projects & Capstone",
+          "week": 7,
+          "order": 8,
+          "type": "project",
+          "hours": 16,
+          "summary": "Six builds that exercise the whole language, runtime and toolchain — from a dependency-free CLI to a tuned, profiled service.",
+          "tags": [
+            "projects",
+            "capstone",
+            "portfolio",
+            "jvm",
+            "concurrency"
+          ],
+          "word_count": 1507,
+          "headings": [
+            "Project 1 — `task-tracker-cli` (Week 1–2)",
+            "Project 2 — `log-analyzer` (Week 2 + 4)",
+            "Project 3 — `concurrent-fetch` (Week 3)",
+            "Project 4 — `inventory-service` (Week 5 + 6)",
+            "Project 5 — `jvm-lab` (Week 6)",
+            "Project 6 — `domain-refactor` (Week 7)",
+            "Capstone — a modular Java service, production-grade",
+            "Portfolio polish (1 h)",
+            "The 30-minute project deep-dive (STAR)",
+            "After the path: where to go next"
+          ]
+        }
+      ]
+    }
+  ]
+}
