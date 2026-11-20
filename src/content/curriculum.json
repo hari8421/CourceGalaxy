@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:54:10.492350+00:00",
+  "generated_at": "2026-11-20T08:04:38.161050+00:00",
   "tracks": [
     {
       "id": "ai",
@@ -1132,7 +1132,7 @@
       "accent": "violet",
       "icon": "sliders",
       "duration": "3–4 weeks",
-      "directory": "fine-tuning-path",
+      "directory": "model-fine-tuning-path",
       "module_count": 6,
       "total_hours": 68,
       "modules": [
@@ -1309,7 +1309,7 @@
       "accent": "orange",
       "icon": "cube",
       "duration": "3–4 weeks",
-      "directory": "from-scratch-path",
+      "directory": "training-from-scratch-path",
       "module_count": 6,
       "total_hours": 70,
       "modules": [
@@ -1483,7 +1483,7 @@
       "accent": "cyan",
       "icon": "search",
       "duration": "3–4 weeks",
-      "directory": "rag-path",
+      "directory": "retrieval-augmented-generation-path",
       "module_count": 6,
       "total_hours": 66,
       "modules": [

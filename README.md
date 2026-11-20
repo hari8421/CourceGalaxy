@@ -9,9 +9,9 @@ Eight complete, project-first learning paths, delivered as browsable markdown.
 | [`spring-boot-developer-path/`](./spring-boot-developer-path) | **Java Spring Boot Developer** — 5 weeks. From modern Java to a containerised, secured, tested service. |
 | [`claude-certification-path/`](./claude-certification-path) | **Claude Certification** — 6 weeks. Preparation for Anthropic's four Claude exams, built around the Developer track. |
 | [`system-design-path/`](./system-design-path) | **System Design** — 6 weeks. From "it works" to "it survives 100x, a region failure, and a cost review". |
-| [`fine-tuning-path/`](./fine-tuning-path) | **Fine-Tuning** — 3–4 weeks. Turn a downloaded model into your own: datasets, LoRA/QLoRA, first training run, honest evaluation, GGUF in LM Studio. |
-| [`from-scratch-path/`](./from-scratch-path) | **Train From Scratch** — 3–4 weeks. Build a transformer with your own hands: tokenizer, attention, training loop, SFT. |
-| [`rag-path/`](./rag-path) | **RAG Engineering** — 3–4 weeks. Make a model answer from your own documents, with citations, hybrid retrieval, and a measured eval suite. |
+| [`model-fine-tuning-path/`](./model-fine-tuning-path) | **Fine-Tuning** — 3–4 weeks. Turn a downloaded model into your own: datasets, LoRA/QLoRA, first training run, honest evaluation, GGUF in LM Studio. |
+| [`training-from-scratch-path/`](./training-from-scratch-path) | **Train From Scratch** — 3–4 weeks. Build a transformer with your own hands: tokenizer, attention, training loop, SFT. |
+| [`retrieval-augmented-generation-path/`](./retrieval-augmented-generation-path) | **RAG Engineering** — 3–4 weeks. Make a model answer from your own documents, with citations, hybrid retrieval, and a measured eval suite. |
 
 96,000+ words across 55 modules, 414 runnable code blocks, and a **practical section in
 every single module**: a hands-on lab, a set of debugging drills, a deliverable to push to
@@ -26,7 +26,7 @@ GitHub, and a self-check.
 | Content | Markdown files with YAML frontmatter (the source of truth) |
 | Backend | Python 3.10+ · FastAPI · Uvicorn · PyYAML · markdown-it-py |
 | Frontend | TypeScript · React 18 · Vite 5 · Tailwind CSS 3 · marked + DOMPurify |
-| Data | None — all 37 modules ship in the repository |
+| Data | None — all 55 modules ship in the repository |
 
 The frontend prefers the live FastAPI API when it is running and falls back to a bundled
 snapshot, so the site works even with no backend up. The snapshot is split in two —
@@ -43,9 +43,9 @@ java-developer-path/          # markdown — Java Developer path
 spring-boot-developer-path/   # markdown — Spring Boot path
 claude-certification-path/    # markdown — Claude certification path
 system-design-path/           # markdown — System Design path
-fine-tuning-path/             # markdown — fine-tuning path
-from-scratch-path/            # markdown — train-from-scratch path
-rag-path/                     # markdown — RAG engineering path
+model-fine-tuning-path/                # markdown — fine-tuning an existing model
+retrieval-augmented-generation-path/   # markdown — RAG engineering
+training-from-scratch-path/            # markdown — training a model from scratch
 api/
   main.py                     # FastAPI: parses the markdown, serves tracks/modules/search
   export_content.py           # regenerates the bundled JSON snapshots

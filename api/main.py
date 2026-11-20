@@ -70,7 +70,7 @@ TRACKS: dict[str, dict[str, str]] = {
     },
     "finetune": {
         "title": "Fine-Tuning",
-        "directory": "fine-tuning-path",
+        "directory": "model-fine-tuning-path",
         "tagline": "Turn a downloaded model into your own with LoRA, honest evals, and a shipped GGUF",
         "accent": "violet",
         "icon": "sliders",
@@ -78,7 +78,7 @@ TRACKS: dict[str, dict[str, str]] = {
     },
     "scratch": {
         "title": "Train From Scratch",
-        "directory": "from-scratch-path",
+        "directory": "training-from-scratch-path",
         "tagline": "Build a transformer with your own hands: tokenizer, attention, training loop, SFT",
         "accent": "orange",
         "icon": "cube",
@@ -86,7 +86,7 @@ TRACKS: dict[str, dict[str, str]] = {
     },
     "rag": {
         "title": "RAG Engineering",
-        "directory": "rag-path",
+        "directory": "retrieval-augmented-generation-path",
         "tagline": "Make a model answer from your own documents — with citations and measured recall",
         "accent": "cyan",
         "icon": "search",
