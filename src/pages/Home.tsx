@@ -18,7 +18,7 @@ export default function Home({ completed, total }: { completed: number; total: n
         <div className="grid-lines absolute inset-0 opacity-70" />
         <div className="relative mx-auto max-w-5xl px-6 py-20 sm:py-28">
           <p className="font-mono text-[11px] uppercase tracking-[0.28em] text-slate-500">
-            Five intensive tracks · project-first · practice in every section
+            Eight intensive tracks · project-first · practice in every section
           </p>
 
           <h1 className="mt-5 text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-6xl">
@@ -45,7 +45,7 @@ export default function Home({ completed, total }: { completed: number; total: n
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-400">
-            Not a link list. Five opinionated, week-by-week curricula where every module
+            Not a link list. Eight opinionated, week-by-week curricula where every module
             ends in a <span className="text-slate-200">lab</span>, a{' '}
             <span className="text-slate-200">shipped deliverable</span>, and a{' '}
             <span className="text-slate-200">self-check</span> — with real code, real

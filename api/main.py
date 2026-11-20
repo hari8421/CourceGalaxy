@@ -68,6 +68,30 @@ TRACKS: dict[str, dict[str, str]] = {
         "icon": "coffee",
         "duration": "7 weeks",
     },
+    "finetune": {
+        "title": "Fine-Tuning",
+        "directory": "fine-tuning-path",
+        "tagline": "Turn a downloaded model into your own with LoRA, honest evals, and a shipped GGUF",
+        "accent": "violet",
+        "icon": "sliders",
+        "duration": "3–4 weeks",
+    },
+    "scratch": {
+        "title": "Train From Scratch",
+        "directory": "from-scratch-path",
+        "tagline": "Build a transformer with your own hands: tokenizer, attention, training loop, SFT",
+        "accent": "orange",
+        "icon": "cube",
+        "duration": "3–4 weeks",
+    },
+    "rag": {
+        "title": "RAG Engineering",
+        "directory": "rag-path",
+        "tagline": "Make a model answer from your own documents — with citations and measured recall",
+        "accent": "cyan",
+        "icon": "search",
+        "duration": "3–4 weeks",
+    },
 }
 
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T10:06:09.128587+00:00",
+  "generated_at": "2026-11-20T06:54:10.492350+00:00",
   "tracks": [
     {
       "id": "ai",
@@ -1121,6 +1121,531 @@
             "Portfolio polish (1 h)",
             "The 30-minute project deep-dive (STAR)",
             "After the path: where to go next"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finetune",
+      "title": "Fine-Tuning",
+      "tagline": "Turn a downloaded model into your own with LoRA, honest evals, and a shipped GGUF",
+      "accent": "violet",
+      "icon": "sliders",
+      "duration": "3–4 weeks",
+      "directory": "fine-tuning-path",
+      "module_count": 6,
+      "total_hours": 68,
+      "modules": [
+        {
+          "track": "finetune",
+          "slug": "README",
+          "title": "Fine-Tuning — Start Here",
+          "week": 0,
+          "order": 0,
+          "type": "overview",
+          "hours": 2,
+          "summary": "Turn a downloaded open model into your own model: datasets, LoRA, a first training run, honest evaluation, and shipping it back into LM Studio.",
+          "tags": [
+            "overview",
+            "fine-tuning",
+            "lora",
+            "qlora",
+            "local-llm"
+          ],
+          "word_count": 1168,
+          "headings": [
+            "The one mental model that makes the rest obvious",
+            "Why LoRA, in one page",
+            "The 4-week map",
+            "Prerequisites checklist",
+            "Environment setup (do this in the first hour)",
+            "Daily working rhythm",
+            "What \"good\" looks like at the end"
+          ]
+        },
+        {
+          "track": "finetune",
+          "slug": "week-1-mental-model",
+          "title": "Week 1 — What Fine-Tuning Actually Is",
+          "week": 1,
+          "order": 1,
+          "type": "module",
+          "hours": 12,
+          "summary": "Behaviour vs knowledge, LoRA and QLoRA without the maths, the file-format trap, choosing a base model, and building the 50-case eval set that judges every later run.",
+          "tags": [
+            "fundamentals",
+            "lora",
+            "qlora",
+            "gguf",
+            "evaluation",
+            "baseline"
+          ],
+          "word_count": 1821,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — meet the base model, then build its judge (3 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `ft-baseline` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "finetune",
+          "slug": "week-2-data",
+          "title": "Week 2 — Data Is 80 % of the Job",
+          "week": 2,
+          "order": 2,
+          "type": "module",
+          "hours": 14,
+          "summary": "Chat templates, the JSONL formats trainers accept, how many examples you really need, quality rules, dedup, leakage, and a validation script that catches mistakes before training does.",
+          "tags": [
+            "datasets",
+            "jsonl",
+            "chat-template",
+            "quality",
+            "licensing",
+            "splits"
+          ],
+          "word_count": 1758,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — build and validate the dataset (5 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `ft-data` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "finetune",
+          "slug": "week-3-training",
+          "title": "Week 3 — Your First Training Run",
+          "week": 3,
+          "order": 3,
+          "type": "module",
+          "hours": 14,
+          "summary": "A complete LoRA run with mlx-lm or Unsloth: the five hyperparameters that matter, reading a loss curve, fighting overfitting, and fitting the job into your memory.",
+          "tags": [
+            "training",
+            "mlx",
+            "unsloth",
+            "hyperparameters",
+            "loss-curve",
+            "vram"
+          ],
+          "word_count": 1706,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — train it (4 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `ft-run-01` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "finetune",
+          "slug": "week-4-ship",
+          "title": "Week 4 — Evaluate, Fuse, Ship",
+          "week": 4,
+          "order": 4,
+          "type": "module",
+          "hours": 14,
+          "summary": "Prove the win with numbers, hunt regressions, fuse the adapter, convert to GGUF, quantize, import into LM Studio and Ollama, and publish a model card that is honest.",
+          "tags": [
+            "evaluation",
+            "gguf",
+            "quantization",
+            "lm-studio",
+            "ollama",
+            "model-card"
+          ],
+          "word_count": 1568,
+          "headings": [
+            "1. Concepts (75 min)",
+            "Results (50-case eval, temperature 0, exact match)",
+            "Known weaknesses",
+            "Not for",
+            "2. Lab — ship it, then check it survived shipping (5 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — the released model",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "finetune",
+          "slug": "projects",
+          "title": "Projects & Capstone",
+          "week": 4,
+          "order": 5,
+          "type": "project",
+          "hours": 12,
+          "summary": "Three portfolio-grade fine-tunes and a capstone that ends with a published adapter, a measured improvement, and a model card you can defend.",
+          "tags": [
+            "projects",
+            "portfolio",
+            "capstone",
+            "model-card",
+            "interview"
+          ],
+          "word_count": 860,
+          "headings": [
+            "Project A — `format-enforcer` (Week 1–2) — *the easy win*",
+            "Project B — `house-style` (Week 2–3) — *the taste test*",
+            "Project C — `tool-caller` (Week 3–4) — *the practical one*",
+            "Capstone — *\"Publish a model\"*",
+            "Portfolio polish",
+            "The interview script you are building toward"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scratch",
+      "title": "Train From Scratch",
+      "tagline": "Build a transformer with your own hands: tokenizer, attention, training loop, SFT",
+      "accent": "orange",
+      "icon": "cube",
+      "duration": "3–4 weeks",
+      "directory": "from-scratch-path",
+      "module_count": 6,
+      "total_hours": 70,
+      "modules": [
+        {
+          "track": "scratch",
+          "slug": "README",
+          "title": "Train From Scratch — Start Here",
+          "week": 0,
+          "order": 0,
+          "type": "overview",
+          "hours": 2,
+          "summary": "Build a language model with your own hands: tokenizer, attention, training loop, and a model that writes coherent text — on one laptop, in weeks not years.",
+          "tags": [
+            "overview",
+            "from-scratch",
+            "transformers",
+            "training",
+            "pytorch"
+          ],
+          "word_count": 1226,
+          "headings": [
+            "The honest frame, before you start",
+            "What \"from scratch\" means here",
+            "The four-week map",
+            "Prerequisites checklist",
+            "Environment setup (first hour)",
+            "The mental model to carry through the whole course",
+            "Daily working rhythm",
+            "What you will be able to say at the end"
+          ]
+        },
+        {
+          "track": "scratch",
+          "slug": "week-1-tokens-and-bigrams",
+          "title": "Week 1 — Tokens and a Model That Barely Works",
+          "week": 1,
+          "order": 1,
+          "type": "module",
+          "hours": 12,
+          "summary": "Text becomes integers, integers become probabilities. Byte-pair encoding, the bigram model, cross-entropy loss, and sampling — the entire learning loop in under 100 lines.",
+          "tags": [
+            "tokenizer",
+            "bpe",
+            "bigram",
+            "cross-entropy",
+            "sampling",
+            "pytorch"
+          ],
+          "word_count": 1684,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — `names-bigram` (3 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `names-bigram` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "scratch",
+          "slug": "week-2-attention-and-transformer",
+          "title": "Week 2 — Attention and Your First Transformer",
+          "week": 2,
+          "order": 2,
+          "type": "module",
+          "hours": 15,
+          "summary": "Queries, keys, values, causal masking, multi-head attention, residuals — assembled into a real GPT that trains on TinyStories and writes grammatical stories.",
+          "tags": [
+            "attention",
+            "transformer",
+            "gpt",
+            "multi-head",
+            "tinystories",
+            "architecture"
+          ],
+          "word_count": 1846,
+          "headings": [
+            "1. Concepts (2 h)",
+            "2. Lab — build the GPT (5 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `gpt-tiny` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "scratch",
+          "slug": "week-3-training-loop",
+          "title": "Week 3 — The Training Loop Is the Craft",
+          "week": 3,
+          "order": 3,
+          "type": "module",
+          "hours": 15,
+          "summary": "AdamW, warmup and cosine decay, gradient clipping and accumulation, checkpoint and resume, throughput measurement, and how to debug a loss that will not move.",
+          "tags": [
+            "training-loop",
+            "adamw",
+            "learning-rate",
+            "checkpointing",
+            "throughput",
+            "debugging"
+          ],
+          "word_count": 1703,
+          "headings": [
+            "1. Concepts (2 h)",
+            "2. Lab — a run you can trust (5 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `gpt-train` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "scratch",
+          "slug": "week-4-sft-and-eval",
+          "title": "Week 4 — From Autocomplete to Assistant",
+          "week": 4,
+          "order": 4,
+          "type": "module",
+          "hours": 14,
+          "summary": "Supervised fine-tuning on instruction pairs, prompt-masked loss, sampling strategies, and honest evaluation of a model that is small and yours.",
+          "tags": [
+            "sft",
+            "instruction-tuning",
+            "sampling",
+            "evaluation",
+            "perplexity"
+          ],
+          "word_count": 1693,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — teach it to follow instructions (5 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `gpt-tiny-instruct` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "scratch",
+          "slug": "projects",
+          "title": "Projects & Capstone",
+          "week": 4,
+          "order": 5,
+          "type": "project",
+          "hours": 12,
+          "summary": "Three from-scratch builds that each prove a different thing, and a capstone that ends with your own model generating text you can show someone.",
+          "tags": [
+            "projects",
+            "portfolio",
+            "capstone",
+            "nanoGPT",
+            "tokenizer"
+          ],
+          "word_count": 940,
+          "headings": [
+            "Project A — `bpe-from-scratch` (Week 1) — *the tokenizer*",
+            "Project B — `gpt-tiny` (Week 2–3) — *the model*",
+            "Project C — `instruct-tiny` (Week 4) — *the assistant*",
+            "Capstone — *\"Publish a model you built\"*",
+            "Portfolio polish",
+            "The interview script you are building toward"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "title": "RAG Engineering",
+      "tagline": "Make a model answer from your own documents — with citations and measured recall",
+      "accent": "cyan",
+      "icon": "search",
+      "duration": "3–4 weeks",
+      "directory": "rag-path",
+      "module_count": 6,
+      "total_hours": 66,
+      "modules": [
+        {
+          "track": "rag",
+          "slug": "README",
+          "title": "RAG — Start Here",
+          "week": 0,
+          "order": 0,
+          "type": "overview",
+          "hours": 2,
+          "summary": "Make a model answer from your own documents: embeddings, chunking, hybrid search, reranking, citations, and the eval harness that proves it works.",
+          "tags": [
+            "overview",
+            "rag",
+            "retrieval",
+            "embeddings",
+            "citations"
+          ],
+          "word_count": 1036,
+          "headings": [
+            "The mental model",
+            "RAG vs fine-tuning, in one table",
+            "The 4-week map",
+            "Prerequisites checklist",
+            "Environment setup (first hour)",
+            "The corpus you should use",
+            "Daily working rhythm",
+            "What you will be able to say at the end"
+          ]
+        },
+        {
+          "track": "rag",
+          "slug": "week-1-embeddings-and-search",
+          "title": "Week 1 — Embeddings and Vector Search",
+          "week": 1,
+          "order": 1,
+          "type": "module",
+          "hours": 12,
+          "summary": "What an embedding actually is, why cosine similarity finds meaning, semantic search in 30 lines of NumPy, and how to choose an embedding model with measurements instead of vibes.",
+          "tags": [
+            "embeddings",
+            "vector-search",
+            "cosine-similarity",
+            "chromadb",
+            "semantic-search"
+          ],
+          "word_count": 1727,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — `hello-vector` (4 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `hello-vector` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "rag",
+          "slug": "week-2-chunking-and-ingestion",
+          "title": "Week 2 — Ingestion and Chunking",
+          "week": 2,
+          "order": 2,
+          "type": "module",
+          "hours": 13,
+          "summary": "Parse PDFs, HTML and Markdown without losing structure; chunk so a retrieved piece still makes sense alone; keep ids idempotent; and measure the chunk size that wins on your corpus.",
+          "tags": [
+            "chunking",
+            "ingestion",
+            "pdf",
+            "metadata",
+            "idempotency",
+            "preprocessing"
+          ],
+          "word_count": 1890,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — `rag-ingest` (5 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `rag-ingest` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "rag",
+          "slug": "week-3-hybrid-and-rerank",
+          "title": "Week 3 — Hybrid Search and Reranking",
+          "week": 3,
+          "order": 3,
+          "type": "module",
+          "hours": 13,
+          "summary": "Add BM25 for exact terms, fuse rankings with RRF, rerank with a cross-encoder, rewrite queries, and filter by metadata — then prove each step's contribution with recall numbers.",
+          "tags": [
+            "bm25",
+            "hybrid-search",
+            "rrf",
+            "reranking",
+            "query-rewriting",
+            "filters"
+          ],
+          "word_count": 1809,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — `rag-hybrid` (5 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `rag-hybrid` on GitHub",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "rag",
+          "slug": "week-4-answering-and-evals",
+          "title": "Week 4 — Answering, Evaluation, and Production",
+          "week": 4,
+          "order": 4,
+          "type": "module",
+          "hours": 14,
+          "summary": "Grounded prompts with inline citations, a real refusal path, faithfulness evaluation, prompt-injection defence, caching, and the latency and cost numbers that make it shippable.",
+          "tags": [
+            "generation",
+            "citations",
+            "refusal",
+            "evaluation",
+            "prompt-injection",
+            "caching"
+          ],
+          "word_count": 1884,
+          "headings": [
+            "1. Concepts (90 min)",
+            "2. Lab — ship it (5 h)",
+            "3. Practical drills (2 h)",
+            "4. Deliverable — `rag-docs` released",
+            "5. Self-check",
+            "6. Cheat sheet"
+          ]
+        },
+        {
+          "track": "rag",
+          "slug": "projects",
+          "title": "Projects & Capstone",
+          "week": 4,
+          "order": 5,
+          "type": "project",
+          "hours": 12,
+          "summary": "Three RAG builds of increasing ambition, and a capstone that ends with a deployed, citation-backed service and an eval report you can defend.",
+          "tags": [
+            "projects",
+            "portfolio",
+            "capstone",
+            "citations",
+            "evaluation"
+          ],
+          "word_count": 884,
+          "headings": [
+            "Project A — `notes-search` (Week 1–2) — *the foundation*",
+            "Project B — `docs-qa` (Week 2–4) — *the product*",
+            "Project C — `ticket-deflector` (Week 3–4) — *the business case*",
+            "Capstone — *\"Ship a knowledge product\"*",
+            "Portfolio polish",
+            "The interview script you are building toward"
           ]
         }
       ]

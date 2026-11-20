@@ -54,6 +54,33 @@ export const ACCENTS: Record<string, Accent> = {
     gradient: 'from-sky-400/20 via-sky-400/5 to-transparent',
     bar: 'bg-sky-400',
   },
+  finetune: {
+    text: 'text-violet-300',
+    softBg: 'bg-violet-400/10',
+    border: 'border-violet-400/30',
+    ring: 'focus-visible:ring-violet-300/60',
+    badge: 'border-violet-400/30 bg-violet-400/10 text-violet-200',
+    gradient: 'from-violet-400/20 via-violet-400/5 to-transparent',
+    bar: 'bg-violet-400',
+  },
+  scratch: {
+    text: 'text-orange-300',
+    softBg: 'bg-orange-400/10',
+    border: 'border-orange-400/30',
+    ring: 'focus-visible:ring-orange-300/60',
+    badge: 'border-orange-400/30 bg-orange-400/10 text-orange-200',
+    gradient: 'from-orange-400/20 via-orange-400/5 to-transparent',
+    bar: 'bg-orange-400',
+  },
+  rag: {
+    text: 'text-cyan-300',
+    softBg: 'bg-cyan-400/10',
+    border: 'border-cyan-400/30',
+    ring: 'focus-visible:ring-cyan-300/60',
+    badge: 'border-cyan-400/30 bg-cyan-400/10 text-cyan-200',
+    gradient: 'from-cyan-400/20 via-cyan-400/5 to-transparent',
+    bar: 'bg-cyan-400',
+  },
 }
 
 /** Full-bleed CTA gradient per track, so call-to-action buttons stay on-brand. */
@@ -63,6 +90,9 @@ export const ctaGradient: Record<string, string> = {
   claude: 'from-amber-300 to-amber-500',
   system: 'from-rose-300 to-rose-500',
   java: 'from-sky-300 to-sky-500',
+  finetune: 'from-violet-300 to-violet-500',
+  scratch: 'from-orange-300 to-orange-500',
+  rag: 'from-cyan-300 to-cyan-500',
 }
 
 /** The terminal-style module list on the landing page, one bullet colour per track. */
@@ -72,6 +102,9 @@ export const trackDot: Record<string, string> = {
   claude: 'text-amber-400',
   system: 'text-rose-400',
   java: 'text-sky-400',
+  finetune: 'text-violet-400',
+  scratch: 'text-orange-400',
+  rag: 'text-cyan-400',
 }
 
 export const accentFor = (track: string): Accent => ACCENTS[track] ?? ACCENTS.ai
@@ -82,4 +115,7 @@ export const TRACK_LABELS: Record<string, string> = {
   claude: 'Claude Certification',
   system: 'System Design',
   java: 'Java Developer',
+  finetune: 'Fine-Tuning',
+  scratch: 'Train From Scratch',
+  rag: 'RAG Engineering',
 }
